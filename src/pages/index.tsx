@@ -1,4 +1,5 @@
 import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 import AboutMe from "@/components/portfolio/about-me/about-me";
 import Contact from "@/components/portfolio/contact/contact";
 import Experience from "@/components/portfolio/experience/experience";
@@ -12,6 +13,9 @@ const HomePage: React.FunctionComponent = () => {
   const navigate = useNavigate();
   return (
     <Page className="page">
+      <Box flex>
+        <Header />
+      </Box>
       <Box flex>
         <Hello /> 
       </Box>
