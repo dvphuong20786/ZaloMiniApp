@@ -1,0 +1,694 @@
+
+.skills {
+  background: var(--gray-default, #ffffff);
+  padding: 64px 16px 64px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.skills-me.skills {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .tag {
+    background: var(--gray-200, #e5e7eb);
+    border-radius: 12px;
+    padding: 4px 20px 4px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .skills2 {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(--body3-medium-all-font-family, "Inter-Medium", sans-serif);
+    font-size: var(--body3-medium-all-font-size, 14px);
+    line-height: var(--body3-medium-all-line-height, 20px);
+    font-weight: var(--body3-medium-all-font-weight, 500);
+    position: relative;
+  }
+  .subheading {
+    color: var(--gray-600, #4b5563);
+    text-align: center;
+    font-family: var(
+      --subtitle-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: 16px;
+    line-height: var(--subtitle-normal-tablet-and-mobile-line-height, 28px);
+    font-weight: var(--subtitle-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+    width: 100%;
+    max-width: 576px;
+  }
+  .row3 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .row-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .tech {
+    display: flex; width: 82px;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative; 
+  }
+  .icon-javscript {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .javascript {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-typescript {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .typescript {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-react {
+    flex-shrink: 0;
+    width: 69.82px;
+    height: 64px;
+    position: relative;
+    overflow: hidden;
+  }
+  .vector {
+    width: 19.05%;
+    height: 21.16%;
+    position: absolute;
+    right: 40.48%;
+    left: 40.48%;
+    bottom: 39.42%;
+    top: 39.42%;
+    overflow: visible;
+  }
+  .group {
+    width: 95.24%;
+    height: 115.45%;
+    position: absolute;
+    right: 2.38%;
+    left: 2.38%;
+    bottom: -7.73%;
+    top: -7.73%;
+    overflow: visible;
+  }
+  .react {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .tech2 {
+    display: flex; width: 82px;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative; 
+  }
+  .icon-nextjs {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: hidden;
+  }
+  .mask-group {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .next-js {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-nodejs {
+    flex-shrink: 0;
+    width: 56.32px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .node-js {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-express {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .express-js {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .row-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon-nest {
+    flex-shrink: 0;
+    width: 66.06px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .nest-js {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-socket {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .socket-io {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-postgresql {
+    flex-shrink: 0;
+    width: 62.05px;
+    height: 64px;
+    position: relative;
+    object-fit: cover;
+  }
+  .postgre-sql {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(14px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .row-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon-mongodb {
+    flex-shrink: 0;
+    width: 29.77px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .mongo-db {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .C-CSharp {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: 14px;
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-sass {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .sass-scss {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-tailwindcss {
+    flex-shrink: 0; 
+    height: 64px;
+    position: relative;
+    overflow: hidden;
+  }
+  .clip-path-group {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .tailwindcss {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: 14px;
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .row-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon-figma {
+    flex-shrink: 0;
+    width: 42.67px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .figma {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-cypress {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .cypress {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .icon-storybook {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .storybook {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .row-6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+   
+  .icon-git {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    overflow: visible;
+  }
+  .git {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--body1-normal-tablet-and-mobile-font-size, 16px);
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .AndroidStudio {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: 14px;
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+  .MicrosoftSQLServer {
+    color: var(--gray-600, #4b5563);
+    text-align: left;
+    font-family: var(
+      --body1-normal-tablet-and-mobile-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: 14px;
+    line-height: var(--body1-normal-tablet-and-mobile-line-height, 24px);
+    font-weight: var(--body1-normal-tablet-and-mobile-font-weight, 400);
+    position: relative;
+  }
+
+  --linear-gradient-button: linear-gradient(
+    180deg,
+    rgba(55, 65, 81, 1) 0%,
+    rgba(3, 7, 18, 1) 100%
+  );
+
+  /* Fonts */
+  --heading-h1-bold-desktop-font-family: Inter-Bold, sans-serif;
+  --heading-h1-bold-desktop-font-size: 60px;
+  --heading-h1-bold-desktop-line-height: 72px;
+  --heading-h1-bold-desktop-font-weight: 700;
+  --heading-h1-bold-desktop-font-style: normal;
+  --heading-h1-bold-tablet-font-family: Inter-Bold, sans-serif;
+  --heading-h1-bold-tablet-font-size: 48px;
+  --heading-h1-bold-tablet-line-height: 48px;
+  --heading-h1-bold-tablet-font-weight: 700;
+  --heading-h1-bold-tablet-font-style: normal;
+  --heading-h1-semi-bold-mobile-font-family: Inter-SemiBold, sans-serif;
+  --heading-h1-semi-bold-mobile-font-size: 36px;
+  --heading-h1-semi-bold-mobile-line-height: 40px;
+  --heading-h1-semi-bold-mobile-font-weight: 600;
+  --heading-h1-semi-bold-mobile-font-style: normal;
+  --heading-h2-semi-bold-desktop-font-family: Inter-SemiBold, sans-serif;
+  --heading-h2-semi-bold-desktop-font-size: 36px;
+  --heading-h2-semi-bold-desktop-line-height: 40px;
+  --heading-h2-semi-bold-desktop-font-weight: 600;
+  --heading-h2-semi-bold-desktop-font-style: normal;
+  --heading-h2-semi-bold-tablet-and-mobile-font-family: Inter-SemiBold,
+    sans-serif;
+  --heading-h2-semi-bold-tablet-and-mobile-font-size: 18px;
+  --heading-h2-semi-bold-tablet-and-mobile-line-height: 28px;
+  --heading-h2-semi-bold-tablet-and-mobile-font-weight: 600;
+  --heading-h2-semi-bold-tablet-and-mobile-font-style: normal;
+  --heading-h3-semi-bold-desktop-font-family: Inter-SemiBold, sans-serif;
+  --heading-h3-semi-bold-desktop-font-size: 30px;
+  --heading-h3-semi-bold-desktop-line-height: 36px;
+  --heading-h3-semi-bold-desktop-font-weight: 600;
+  --heading-h3-semi-bold-desktop-font-style: normal;
+  --heading-h3-semi-bold-tablet-and-mobile-font-family: Inter-SemiBold,
+    sans-serif;
+  --heading-h3-semi-bold-tablet-and-mobile-font-size: 24px;
+  --heading-h3-semi-bold-tablet-and-mobile-line-height: 32px;
+  --heading-h3-semi-bold-tablet-and-mobile-font-weight: 600;
+  --heading-h3-semi-bold-tablet-and-mobile-font-style: normal;
+  --heading-h3-bold-desktop-font-family: Inter-Bold, sans-serif;
+  --heading-h3-bold-desktop-font-size: 30px;
+  --heading-h3-bold-desktop-line-height: 36px;
+  --heading-h3-bold-desktop-font-weight: 700;
+  --heading-h3-bold-desktop-font-style: normal;
+  --heading-h3-bold-tablet-and-mobile-font-family: Inter-Bold, sans-serif;
+  --heading-h3-bold-tablet-and-mobile-font-size: 24px;
+  --heading-h3-bold-tablet-and-mobile-line-height: 32px;
+  --heading-h3-bold-tablet-and-mobile-font-weight: 700;
+  --heading-h3-bold-tablet-and-mobile-font-style: normal;
+  --subtitle-normal-desktop-font-family: Inter-Regular, sans-serif;
+  --subtitle-normal-desktop-font-size: 20px;
+  --subtitle-normal-desktop-line-height: 28px;
+  --subtitle-normal-desktop-font-weight: 400;
+  --subtitle-normal-desktop-font-style: normal;
+  --subtitle-semi-bold-desktop-font-family: Inter-SemiBold, sans-serif;
+  --subtitle-semi-bold-desktop-font-size: 20px;
+  --subtitle-semi-bold-desktop-line-height: 28px;
+  --subtitle-semi-bold-desktop-font-weight: 600;
+  --subtitle-semi-bold-desktop-font-style: normal;
+  --subtitle-normal-tablet-and-mobile-font-family: Inter-Regular, sans-serif;
+  --subtitle-normal-tablet-and-mobile-font-size: 18px;
+  --subtitle-normal-tablet-and-mobile-line-height: 28px;
+  --subtitle-normal-tablet-and-mobile-font-weight: 400;
+  --subtitle-normal-tablet-and-mobile-font-style: normal;
+  --subtitle-semi-bold-tablet-and-mobile-font-family: Inter-SemiBold, sans-serif;
+  --subtitle-semi-bold-tablet-and-mobile-font-size: 18px;
+  --subtitle-semi-bold-tablet-and-mobile-line-height: 28px;
+  --subtitle-semi-bold-tablet-and-mobile-font-weight: 600;
+  --subtitle-semi-bold-tablet-and-mobile-font-style: normal;
+  --body1-normal-dektop-font-family: Inter-Regular, sans-serif;
+  --body1-normal-dektop-font-size: 18px;
+  --body1-normal-dektop-line-height: 28px;
+  --body1-normal-dektop-font-weight: 400;
+  --body1-normal-dektop-font-style: normal;
+  --body1-normal-tablet-and-mobile-font-family: Inter-Regular, sans-serif;
+  --body1-normal-tablet-and-mobile-font-size: 16px;
+  --body1-normal-tablet-and-mobile-line-height: 24px;
+  --body1-normal-tablet-and-mobile-font-weight: 400;
+  --body1-normal-tablet-and-mobile-font-style: normal;
+  --body2-normal-all-font-family: Inter-Regular, sans-serif;
+  --body2-normal-all-font-size: 16px;
+  --body2-normal-all-line-height: 24px;
+  --body2-normal-all-font-weight: 400;
+  --body2-normal-all-font-style: normal;
+  --body2-semi-bold-all-font-family: Inter-SemiBold, sans-serif;
+  --body2-semi-bold-all-font-size: 16px;
+  --body2-semi-bold-all-line-height: 24px;
+  --body2-semi-bold-all-font-weight: 600;
+  --body2-semi-bold-all-font-style: normal;
+  --body2-medium-all-font-family: Inter-Medium, sans-serif;
+  --body2-medium-all-font-size: 16px;
+  --body2-medium-all-line-height: 24px;
+  --body2-medium-all-font-weight: 500;
+  --body2-medium-all-font-style: normal;
+  --body2-normal-all-underline-font-family: Inter-Regular, sans-serif;
+  --body2-normal-all-underline-font-size: 16px;
+  --body2-normal-all-underline-line-height: 24px;
+  --body2-normal-all-underline-font-weight: 400;
+  --body2-normal-all-underline-font-style: normal;
+  --body3-normal-all-font-family: Inter-Regular, sans-serif;
+  --body3-normal-all-font-size: 14px;
+  --body3-normal-all-line-height: 20px;
+  --body3-normal-all-font-weight: 400;
+  --body3-normal-all-font-style: normal;
+  --body3-medium-all-font-family: Inter-Medium, sans-serif;
+  --body3-medium-all-font-size: 14px;
+  --body3-medium-all-line-height: 20px;
+  --body3-medium-all-font-weight: 500;
+  --body3-medium-all-font-style: normal;
+
+  /* Effects */
+  --drop-shadow-md-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+  --drop-shadow-lg-box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.04),
+    0px 4px 3px 0px rgba(0, 0, 0, 0.1);
+  --drop-shadow-2xl-box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.15);
+  
+}

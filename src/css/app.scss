@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('/src/assets/fonts/YesevaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page {
+  padding: 16px 0px 0px 0px;
+  overflow-x: hidden;
+  background: #ffffff;  
+  
+}
+
+.section-container {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.zaui-list-item {
+  cursor: pointer;
+}
+.zaui-box-flex { display: flex; flex: 1; justify-content: center; }
+
+
+
+
