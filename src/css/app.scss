@@ -6,9 +6,37 @@
 }
 
 .page {
-  padding: 16px 0px 0px 0px;
-  overflow-x: hidden;
-  background: #ffffff;  
+    padding: 16px 0px 0px 0px;
+    overflow-x: hidden;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.page .mn-right .nav_bar.navigation-left .hellouser-warp .close-icon { display: none;  }
+.page .mn-right .nav_bar { height: 100vh; 
+  top: 0px; right: 0px;
+  position: fixed; 
+ } 
+@media only screen and (max-width: 845px) {
+  .mn-right { display: none; }
+   
+}
+
+@media only screen and (min-width: 846px) {
+  .mn-right { display: flex;
+            position: relative;
+            width: 366px; } 
+  .page  .header-me.frame-158 { display: none; }
+  .page .hello-me.hero { padding: 16px; }
+  .page .content-right {max-width: 366px; }
   
 }
 
@@ -24,6 +52,15 @@
 }
 .zaui-box-flex { display: flex; flex: 1; justify-content: center; }
 
+
+.skills-me.skills, .experience-me.experience, .contact-me, .footer.footer-me  {
+ display: flex !important;
+ flex: 1; 
+ justify-content: center !important;
+ align-content: space-between !important;
+}
+
+.clear { clear: both;}
 
 
 

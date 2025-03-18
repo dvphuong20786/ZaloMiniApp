@@ -61,7 +61,7 @@ const AboutMe  : React.FunctionComponent<PropsAboutMe> = ({ cssClass = "about-me
                 I began my journey as a web developer in 2015, and since then,
                 I&#39;ve continued to grow and evolve as a developer, taking on
                 new challenges and learning the latest technologies along the
-                way. Now, in my early thirties, 7 years after starting my web
+                way. Now, in my early thirties, +12 years after starting my web
                 development journey, I&#39;m building cutting-edge web
                 applications using modern technologies such as Figma, Angular.js,
                 TypeScript, React.js, .Net Core, Sql Server and much more.

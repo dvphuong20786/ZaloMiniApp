@@ -117,13 +117,16 @@ const Experience  : React.FunctionComponent<PropsExperience> = ({ cssClass = "ex
                     </div>
                   </div>
    
-                  
+                  <div className="column4">
+                    <div className="text i">
+                      <i>
+                      "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
+                      </i>
+                    </div>
+                  </div>
                 </div>
-                <div className="text i">
-                  <i>
-                  "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
-                  </i>
-                </div>
+         
+                
               </div> 
             </div>
 
@@ -231,12 +234,15 @@ const Experience  : React.FunctionComponent<PropsExperience> = ({ cssClass = "ex
                     </div>
                   </div>
                   
+                  <div className="column4">
+                    <div className="text i">
+                      <i>
+                      "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
+                      </i>
+                    </div> 
+                  </div>
                 </div>
-                <div className="text i">
-                  <i>
-                  "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
-                  </i>
-                </div>
+                
               </div> 
             </div>
 
@@ -346,13 +352,18 @@ const Experience  : React.FunctionComponent<PropsExperience> = ({ cssClass = "ex
                         </div>
                       </div>
                   </div>
+
+
+                  <div className="column4">
+                    <div className="text i">
+                      <i>
+                      "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
+                      </i>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="text i">
-                  <i>
-                  "Because the project is copyrighted and under strict security measures, there is no preview available online. I apologize for not being able to show it here."
-                  </i>
-                </div>
+                
               </div> 
             </div>
 

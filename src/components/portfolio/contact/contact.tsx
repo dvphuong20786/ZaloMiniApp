@@ -17,7 +17,21 @@ type PropsContact  = {
   cssClass?: string;
 }
 
+
+
 const Contact  : React.FunctionComponent<PropsContact> = ({ cssClass = "contact-me" }) => {
+
+  function onCopy(id) {
+    let text = (document.getElementById(id) as HTMLElement).innerHTML; 
+    navigator.clipboard.writeText( text ).then(()=>{
+      let _text = (document.getElementById(id+"TEXT") as HTMLElement);
+      _text.innerText = "Copied!";
+
+      setTimeout(() => {
+        _text.innerText = "";
+      }, 1000);
+    });
+  }
  
   return (
     <Box flex >
@@ -39,18 +53,21 @@ const Contact  : React.FunctionComponent<PropsContact> = ({ cssClass = "contact-
           </div>
           <div className="column">
             <div className="email">  
-              <img className="icon" src={mail} /> 
-              
-              <div className="text3">dvphuong.dev@gmail.com</div>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dvphuong.dev@gmail.com&su=hi dinh van phuong&body=you welcome!">
+                <img className="icon" src={mail} /> 
+              </a> 
+              <div className="text3" id="GMAIL">dvphuong.dev@gmail.com</div>
               <div className="icon-button"> 
-                <img className="icon2" src={copytext} /> 
+                <img className="icon2" src={copytext} onClick={() => onCopy('GMAIL')} /> 
+                <span id="GMAILTEXT"></span>
               </div>
             </div> 
             <div className="phone"> 
-              <img className="icon" src={Iconphone} />  
-              <div className="text3">+84 855 550 200</div>
+              <a href="tel:+84 855 550 200"><img className="icon" src={Iconphone}  />  </a>
+              <div className="text3" id="SDT" >+84 855 550 200</div>
               <div className="icon-button">
-              <img className="icon4" src={copytext} /> 
+                <img className="icon4" src={copytext} onClick={() => onCopy('SDT')} /> 
+                <span id="SDTTEXT"></span>
               </div>
             </div>
           </div>

@@ -57,6 +57,8 @@
             position: absolute;
             top: 0;
             width: 240px;
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
           }
         }
       }

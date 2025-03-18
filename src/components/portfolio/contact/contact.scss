@@ -19,8 +19,7 @@
     flex-direction: column;
     gap: 24px;
     align-items: center;
-    justify-content: center;
-    align-self: stretch;
+    justify-content: center; 
     flex-shrink: 0;
     position: relative;
   }
@@ -78,8 +77,7 @@
     line-height: var(--subtitle-normal-desktop-line-height, 28px);
     font-weight: var(--subtitle-normal-desktop-font-weight, 400);
     position: relative;
-    width: 100%;
-    max-width: 576px;
+    width: 100%; 
   }
   .column {
     display: flex;
@@ -97,8 +95,7 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
+    position: relative; 
   }
   .icon {
     flex-shrink: 0;
@@ -107,7 +104,7 @@
     position: relative;
     overflow: visible;
   }
-  .text3 {
+  .text3 { cursor: pointer;
     color: var(--gray-900, #111827);
     text-align: center;
     font-family: var(
@@ -129,14 +126,14 @@
     padding: 6px;
     display: flex;
     flex-direction: row;
-    gap: 0px;
+    gap: 4px;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     position: relative;
   }
   .icon2 {
-    flex-shrink: 0;
+    flex-shrink: 0; cursor: pointer;
     width: 24px;
     height: 24px;
     position: relative;
@@ -150,7 +147,6 @@
     justify-content: center;
     flex-shrink: 0;
     position: relative;
-    overflow: hidden;
   }
   .icon3 {
     flex-shrink: 0;
@@ -159,13 +155,15 @@
     position: relative;
     overflow: visible;
   }
-  .icon4 {
+  .icon4 { cursor: pointer;
     flex-shrink: 0;
     width: 24px;
     height: 24px;
     position: relative;
     overflow: visible;
   }
+  #SDTTEXT, #GMAILTEXT{ color: #4b5563;    position: absolute;
+    left: 34px; }
   .row3 {
     border-radius: 12px;
     display: flex;

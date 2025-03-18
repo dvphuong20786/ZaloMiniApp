@@ -5,7 +5,7 @@
   padding: 24px 0px 24px 0px;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0px; height: 68px;
   align-items: center;
   justify-content: center;
   align-self: stretch;
@@ -19,8 +19,7 @@
     flex-direction: column;
     gap: 0px;
     align-items: center;
-    justify-content: center;
-    align-self: stretch;
+    justify-content: center; 
     flex-shrink: 0;
     position: relative;
   }
